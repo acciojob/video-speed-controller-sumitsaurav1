@@ -66,3 +66,4 @@ progress.addEventListener('click', scrub);
 
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
 inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+let wrapperDiv = document.querySelector(".wrapper div")
